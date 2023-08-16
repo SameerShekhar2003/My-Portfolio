@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/34603ae027.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfollio</h1>
+                <ul id="sidemenu">
+                    <li>
+                    <a href="#header">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfollio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <i class="fas fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Coder and Developer</p>
+                <h1>Hi, I'm <span>Sameer</span><br> I'm a student</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------About------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an engineering student specializing in Computer Science with a passion for software development. Proficient in web development, competitive coding, and database management, I have a strong foundation in languages like C++, Java, and SQL. With a focus on problem-solving, I strive to create innovative solutions that have a meaningful impact. Equipped with a solid understanding of computer science fundamentals and practical experience, I am ready to tackle diverse software development challenges and contribute to the ever-evolving field.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Proficient in creating dynamic and interactive websites using various technologies and frameworks.</li>
+                            <li><span>Competitive Coding</span><br>Skilled in solving complex algorithmic problems efficiently and effectively using C++ and Java, often participating in coding competitions and leveraging strong programming skills to achieve optimal solutions.</li>
+                            <li><span>Database Management</span><br>Proficient in SQL and experienced in designing and managing databases, ensuring efficient data storage, retrieval, and manipulation for optimal application performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023- Current</span><br> <b>HighRadius Corporation</b> - Software Development Intern</li>
+                            <!-- <li><span>2021- Current</span><br>Designing Web/App interfaces</li>
+                            <li><span>2021- Current</span><br>Designing Web/App interfaces</li>
+                        </ul> -->
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br><b>10th</b> from D.A.V Public School</li>
+                            <li><span>2020</span><br><b>12th</b>12th from S.N Sinha College</li>
+                            <li><span>2024</span><br><b>Btech</b> from KIIT University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------Projects------------------------------>
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Memory Matching Game</h2>
+                <p> <span>Using HTML, CSS and JavaScript</span>  <br> <br> This project involves the creation of a Memory Matching Game, employing HTML, CSS, and JavaScript to bring interactivity to the game. The game offers players an engaging experience where they match pairs of cards. It features three distinct grid configurations that players can choose from, allowing them to customize their gameplay. The project demonstrates proficiency in front-end web technologies, resulting in a fully responsive and visually appealing frontend design that adapts seamlessly to various devices and screen sizes.
+                   </p>
+                    <a href="https://github.com/SameerShekhar2003/MemoryMatchingGame" target="_blank" > Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>AI-Enabled FinTech B2B Invoice Management
+                    Application.</h2>
+                    <p> <span>Using Python, Java, SQL, React, HTML, CSS</span>  <br> <br> An AI-Enabled FinTech B2B Invoice Management Application streamlines Accounts Receivable, enabling easy viewing of invoices. Python-based models forecast orders with 91% accuracy. The frontend, built with React, HTML, and CSS, ensures a user-friendly experience.
+                       </p>
+                    <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h2>Ride Dekho - A Ride Rental System.</h2>
+                    <p> <span>Using PHP, HTML and CSS</span>  <br> <br> "Ride Dekho" is a Ride Rental System crafted by combining PHP backend with HTML/CSS frontend. This system enhances user options with three distinct ride booking functions. Security is paramount, implemented through separate login interfaces for users and administrators. The project features an efficient admin dashboard for streamlined management of rides, users, and rentals. A robust database system ensures data storage and retrieval. The project demonstrates proficiency in PHP, HTML/CSS, and database integration, optimizing user experience and administration in a comprehensive ride rental platform.
+                       </p>
+                    <a href="https://github.com/SameerShekhar2003/Ride-Dekho" target="_blank" > Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------portfolio------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>HighRadius Corporation</h3>
+                    <p>I'm currently working here as an Software Development Intern</p>
+                    <a href="https://www.highradius.com/" target="_blank" ><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>jyggd gcayg cqiugca cuigac ciaca uicluad cuiac</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>jyggd gcayg cqiugca cuigac ciaca uicluad cuiac</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+<!-- -------------------Contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> sameershekhar8279@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7631450670</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sameer-shekhar-255186205/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_sameer_shekhar_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/sameer.shekhar.925?mibextid=9R9pXO"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sameer. Made with love<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyAWhYEuKNyns2YWs-4FhlPGurNzsvaMWeNDV98Jhz7lTVAXB5INwSB9fWd7CdcAAmpXA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =  document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
